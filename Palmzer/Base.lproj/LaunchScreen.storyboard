@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController storyboardIdentifier="SplashScreen" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgImage" translatesAutoresizingMaskIntoConstraints="NO" id="fq7-3c-MQE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vBL-TB-amG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+                                <color key="backgroundColor" red="0.44705882352941173" green="0.85098039215686272" blue="0.83921568627450982" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Anl-tQ-rr4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vBL-TB-amG" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="6Ss-bp-sBQ"/>
+                            <constraint firstItem="fq7-3c-MQE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="CUC-XD-62c"/>
+                            <constraint firstItem="fq7-3c-MQE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ZWW-7B-XlY"/>
+                            <constraint firstItem="vBL-TB-amG" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="b12-sI-P7e"/>
+                            <constraint firstItem="fq7-3c-MQE" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="d4c-ox-XaD"/>
+                            <constraint firstAttribute="trailing" secondItem="vBL-TB-amG" secondAttribute="trailing" id="ooA-th-Z5A"/>
+                            <constraint firstAttribute="bottom" secondItem="fq7-3c-MQE" secondAttribute="bottom" id="wal-HA-a2N"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-294.20289855072468" y="414.50892857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bgImage" width="360" height="640"/>
+    </resources>
+</document>
